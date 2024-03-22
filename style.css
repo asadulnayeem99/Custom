@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 0 auto;
+  width: 550px;
+  background-color: white;
+  height: 500px;
+}
+.circle {
+  width: 160px;
+  height: 160px;
+  background: blue;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 80px;
+  background-color: aqua;
+  margin-left: -13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle img {
+  width: 55%;
+  height: 55%;
+}
+
+.rec {
+  background-color: rgb(246, 246, 246);
+  width: 500px;
+  height: 140px;
+
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 19px 32px 28px 11px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0;
+  text-align: justify;
+  padding: 15px;
+  font-size: 12px;
+}
+.text div > span {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.para {
+  font-weight: bolder;
+  font-size: 14px;
+  width: 80%;
+}
