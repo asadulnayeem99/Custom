@@ -39,7 +39,6 @@
   background-color: rgb(246, 246, 246);
   width: 500px;
   height: 140px;
-
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
   border-top-left-radius: 40px;
@@ -67,4 +66,45 @@
   font-weight: bolder;
   font-size: 14px;
   width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .rec {
+    width: 250px;
+    height: 60px;
+    /* padding: 23px; */
+    /* height: 550px;
+    background-color: blue; */
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0;
+    text-align: justify;
+    padding: 5px;
+    font-size: 8px;
+  }
+  .text div > span {
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  .para {
+    font-weight: bolder;
+    font-size: 8px;
+    width: 80%;
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .parent {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    align-items: flex-start;
+  }
 }
