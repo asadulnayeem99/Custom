@@ -106,5 +106,6 @@
     justify-content: center;
     /* background-color: blueviolet; */
     align-items: flex-start;
+    width: 300px;
   }
 }
